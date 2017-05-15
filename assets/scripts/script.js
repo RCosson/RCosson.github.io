@@ -1,17 +1,21 @@
 setTimeout( function(){
   $(document).ready(function() {
-    $(".top").slideDown(1100).removeClass('.hidden');
+    $(".top").slideDown(750).removeClass('.hidden');
+    $(".bottom").slideDown(750).removeClass('.hidden');
   });
 
-  $(document).ready(function() {
-    $(".bottom").slideDown(1100).removeClass('.hidden');
+  $(document).ready(function(){
+      setTimeout(function(){
+        //$('.titles').fadeIn(750).removeClass('.hidden');
+        $('.nav').slideDown(750).removeClass('.hidden');
+       },
+    750);
   });
 
   $(document).ready(function(){
       setTimeout(function(){
         $('.titles').fadeIn(750).removeClass('.hidden');
-        $('.nav').slideDown(750).removeClass('.hidden');
        },
-    1200);
+    1500);
   });
 }  , 400 );
