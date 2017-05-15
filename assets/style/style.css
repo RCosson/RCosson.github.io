@@ -112,3 +112,13 @@ h1, h2 {
   background-color: rgba(0, 0, 0, 0.4);
   height: 60px;
 }
+
+@media screen and (max-width: 1024px) {
+  .top li {
+
+    margin-right: 20px;
+  }
+  .bottom li {
+    margin-left: 20px;
+  }
+}

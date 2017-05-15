@@ -6,7 +6,6 @@ setTimeout( function(){
 
   $(document).ready(function(){
       setTimeout(function(){
-        //$('.titles').fadeIn(750).removeClass('.hidden');
         $('.nav').slideDown(750).removeClass('.hidden');
        },
     750);
