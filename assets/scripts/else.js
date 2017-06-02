@@ -1,6 +1,6 @@
 setTimeout( function(){
   $(document).ready(function(){
-    $('.middle').slideDown(750).removeClass('.hidden');
+    $('.middle').fadeIn(750).removeClass('.hidden');
     });
     $(document).ready(function(){
         setTimeout(function(){
